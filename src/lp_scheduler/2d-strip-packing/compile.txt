@@ -1,0 +1,2 @@
+g++ 2d_strip_packing.cpp -lglpk -lm -I/usr/local/include/ -L/usr/local/lib/ -lglpk -lm -lgtest -o 2d_strip_packer
+g++ 2d_strip_packing_test.cpp -I/usr/local/include/ -L/usr/local/lib/ -lglpk -lm -lgtest_main -o 2d_strip_packer_unit_tests
