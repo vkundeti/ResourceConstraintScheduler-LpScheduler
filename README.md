@@ -83,9 +83,10 @@ Following is the *feasible schedule* with *make-span* of **57** and the next pic
 ## Building Unit Tests
 
 ```
-git clone ....
+git clone git@github.com:vkundeti/ResourceConstraintScheduler-LpScheduler.git
 cd LpScheduler
 mkdir build
+cd build
 cmake -DBUILD_UNIT_TESTS=True ../src/
 make -j10
 ```
