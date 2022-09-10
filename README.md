@@ -89,6 +89,25 @@ mkdir build
 cd build
 cmake -DBUILD_UNIT_TESTS=True ../src/
 make -j10
+
+./scheduler_unit_tests
+...
+[       OK ] Test_Fixture_Feasible_Memory_Scheduler.test_inplace_spilled (0 ms)
+[----------] 12 tests from Test_Fixture_Feasible_Memory_Scheduler (1 ms total)
+
+[----------] 2 tests from Color_Connected_Vertices
+[ RUN      ] Color_Connected_Vertices.single_element_graph
+[       OK ] Color_Connected_Vertices.single_element_graph (0 ms)
+[ RUN      ] Color_Connected_Vertices.connected_with_name_prefix
+[       OK ] Color_Connected_Vertices.connected_with_name_prefix (1 ms)
+[----------] 2 tests from Color_Connected_Vertices (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 12 test suites ran. (6 ms total)
+[  PASSED  ] 60 tests.
+
+
+
 ```
 ## References
 
