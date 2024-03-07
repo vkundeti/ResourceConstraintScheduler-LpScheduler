@@ -111,5 +111,5 @@ make -j10
 ```
 ## References
 
-**[1]** [V. Kundeti, "An Integer Linear Program for Generating Optimal Schedules with Resource Constraints"]()
+**[1]** [V. Kundeti, "An Integer Linear Program for Generating Optimal Schedules with Resource Constraints"](https://intel-my.sharepoint.com/:w:/r/personal/vamsi_k_kundeti_intel_com/_layouts/15/Doc.aspx?sourcedoc=%7BBAB7DEF2-3A0C-47B2-8A2F-A2323EB9ADE7%7D&file=An%20Integer%20Linear%20Programming%20Fomulation%20for%20Generating%20Optimal%20Schedules%20with%20Resource%20Constraints..docx&action=default&mobileredirect=true)
 
